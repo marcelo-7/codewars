@@ -18,7 +18,7 @@ function toCamelCase(str){
         let capitalizedString = newArray[i].charAt(0).toUpperCase() + newArray[i].slice(1)
         correctArray.push(capitalizedString)
     }
-    //put together
+    //put together 
     return correctArray.join("")
 }
 
